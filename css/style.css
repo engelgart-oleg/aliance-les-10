@@ -100,6 +100,9 @@ body {
   border-right: 1px solid rgba(235, 235, 240, 0.2);
   height: 100%;
 }
+.logo {
+    display: none;
+  }
 .header-logo .logo-svg {
   width: 8.75rem;
   height: 2.75rem;
@@ -380,6 +383,7 @@ body {
   .header-logo {
     padding: 2rem;
   }
+  
   .logo-svg {
     max-width: 6rem;
   }

@@ -265,7 +265,6 @@ body {
 .steps {
   display: flex;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
   gap: 1.875rem;
   list-style: none;
   padding: 0;
@@ -277,15 +276,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: end;
-
-  /* overflow: visible; */
 }
 
 .steps-buttons {
   max-width: 120px;
   height: 44px;
-  display: none;
-  
+  display: none; 
 }
 
 .steps-button-prev,
@@ -304,13 +300,9 @@ body {
   background-color: #5C8EE5;
 }
 
-.steps {
-  width: 100%;
-}
-
 .steps-item {
-  /* max-width: 20.625rem; */
-  width: 100%;
+  width: 20.625rem;
+  height: auto;
 }
 .steps-num {
   font-family: 'Bebas Neue';
@@ -588,6 +580,12 @@ body {
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translateY(-12px);
   }
+
+
+  .steps-buttons {
+    display: flex;
+  }
+  
 }
 
 
@@ -609,11 +607,6 @@ body {
   .section-title {
     font-size: 3rem;
     margin-bottom: 2rem;
-  }
-
-
-  .steps-buttons {
-    display: flex;
   }
 }
 
